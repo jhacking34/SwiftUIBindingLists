@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		F6BD0D6F265BD6A500AB56DC /* SwiftUIBuildingListsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BD0D6E265BD6A500AB56DC /* SwiftUIBuildingListsApp.swift */; };
-		F6BD0D71265BD6A500AB56DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BD0D70265BD6A500AB56DC /* ContentView.swift */; };
+		F6BD0D71265BD6A500AB56DC /* BindWithList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BD0D70265BD6A500AB56DC /* BindWithList.swift */; };
 		F6BD0D73265BD6A700AB56DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6BD0D72265BD6A700AB56DC /* Assets.xcassets */; };
 		F6BD0D76265BD6A700AB56DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6BD0D75265BD6A700AB56DC /* Preview Assets.xcassets */; };
+		F6BD0D7E265BD6F700AB56DC /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BD0D7D265BD6F700AB56DC /* Person.swift */; };
+		F6BD0D80265BDE6400AB56DC /* EditPersonPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BD0D7F265BDE6400AB56DC /* EditPersonPopupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F6BD0D6B265BD6A500AB56DC /* SwiftUIBuildingLists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBuildingLists.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6BD0D6E265BD6A500AB56DC /* SwiftUIBuildingListsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBuildingListsApp.swift; sourceTree = "<group>"; };
-		F6BD0D70265BD6A500AB56DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F6BD0D70265BD6A500AB56DC /* BindWithList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindWithList.swift; sourceTree = "<group>"; };
 		F6BD0D72265BD6A700AB56DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6BD0D75265BD6A700AB56DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F6BD0D77265BD6A700AB56DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6BD0D7D265BD6F700AB56DC /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		F6BD0D7F265BDE6400AB56DC /* EditPersonPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPersonPopupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				F6BD0D6E265BD6A500AB56DC /* SwiftUIBuildingListsApp.swift */,
-				F6BD0D70265BD6A500AB56DC /* ContentView.swift */,
+				F6BD0D70265BD6A500AB56DC /* BindWithList.swift */,
 				F6BD0D72265BD6A700AB56DC /* Assets.xcassets */,
 				F6BD0D77265BD6A700AB56DC /* Info.plist */,
 				F6BD0D74265BD6A700AB56DC /* Preview Content */,
+				F6BD0D7D265BD6F700AB56DC /* Person.swift */,
+				F6BD0D7F265BDE6400AB56DC /* EditPersonPopupView.swift */,
 			);
 			path = SwiftUIBuildingLists;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6BD0D71265BD6A500AB56DC /* ContentView.swift in Sources */,
+				F6BD0D80265BDE6400AB56DC /* EditPersonPopupView.swift in Sources */,
+				F6BD0D7E265BD6F700AB56DC /* Person.swift in Sources */,
+				F6BD0D71265BD6A500AB56DC /* BindWithList.swift in Sources */,
 				F6BD0D6F265BD6A500AB56DC /* SwiftUIBuildingListsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

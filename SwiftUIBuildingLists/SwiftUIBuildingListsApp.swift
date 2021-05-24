@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUIBuildingListsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BindWithList()
         }
     }
 }
