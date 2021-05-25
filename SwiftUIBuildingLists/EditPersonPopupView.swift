@@ -28,6 +28,11 @@ struct EditPersonPopupView: View {
                 Text("Close")
             })
         }
+        .padding()
+        .background(RoundedRectangle(cornerRadius: 20)
+                        .fill(Color(.systemBackground))
+                        .shadow(radius: 8))
+        .padding(24)
     }
 }
 
